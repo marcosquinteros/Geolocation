@@ -55,3 +55,15 @@ footer a {
     text-decoration: none;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 599px) {
+    .title-img {
+        flex-direction: column-reverse;
+    }
+    .title-img h1,
+    .left-section p {
+        width:max-content;
+        height: auto;
+        text-align: center;
+    }
+  }
